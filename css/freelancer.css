@@ -166,31 +166,28 @@ section h2 {
 }
 
 header.masthead {
-  padding-top: calc(6rem + 72px);
-  padding-bottom: 6rem;
+  text-align: center;
+  color: white;
+  background-image: url("../img/header-bg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-shadow: 0 0 3px #000000;	
 }
 
-header.masthead h1 {
-  font-size: 3rem;
-  line-height: 3rem;
+header.masthead .intro-text {
+  padding-top: 300px;	
+  padding-bottom: 10px;
 }
 
-header.masthead h2 {
-  font-size: 1.3rem;
-  font-family: 'Lato';
-}
-
-@media (min-width: 992px) {
-  header.masthead {
-    padding-top: calc(6rem + 106px);
-    padding-bottom: 6rem;
-  }
-  header.masthead h1 {
-    font-size: 4.75em;
-    line-height: 4rem;
-  }
-  header.masthead h2 {
-    font-size: 1.75em;
+@media (min-width: 768px) {
+  header.masthead .intro-text {
+    padding-top: 500px;
+    padding-bottom: 30px;
   }
 }
 
